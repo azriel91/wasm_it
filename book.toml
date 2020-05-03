@@ -12,5 +12,5 @@ command = "mdbook-graphviz"
 command = "mdbook-mermaid"
 
 [output.html]
-additional-css = ["mermaid/mermaid.css"]
+additional-css = ["mermaid/mermaid.css", "mermaid/additional.css"]
 additional-js = ["mermaid/mermaid.min.js", "mermaid/mermaid-init.js"]
