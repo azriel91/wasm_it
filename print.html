@@ -477,6 +477,42 @@ module_levels:
 </details>
 <h2><a class="header" href="#wasm-3" id="wasm-3">WASM</a></h2>
 <p>WASM applications don't have access to those forms of input, but can use others:</p>
+<style>
+input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+input[type="text"]:focus {
+    box-shadow: 0px 0px 2px 1px #aaccff;
+}
+
+button {
+    background: #f0f0f0;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #ccc;
+    padding-left: 24px;
+    padding-top: 4px;
+    padding-right: 24px;
+    padding-bottom: 4px;
+}
+
+button:hover {
+    background: #f8f8f8;
+}
+
+button:hover:active {
+    background: #eeeeee;
+    box-shadow: 0px 0px 2px 1px #aaccff;
+}
+</style>
 <p>
 <details open>
 <summary><b>Query Parameters:</b></summary>
@@ -501,7 +537,7 @@ module_levels:
 <form method="post">
 <p><label for="session_server_address" name="session_server_address" style="display: inline-block; width: 125px;">Server Address:</label> <input type="text" name="session_server_address" value = "127.0.0.1" /></p>
 <p><label for="session_server_port" name="session_server_port" style="display: inline-block; width: 125px;">Server Port:</label> <input type="text" name="session_server_port" value = "1234" /></p>
-<div style="text-align: center;"><p><button type="submit" name="game_start" onclick="window.open('http://localhost:8000/', '_blank', 'innerWidth=800,innerHeight=601');">Play</button></p></div>
+<div style="text-align: center;"><p><button type="submit" name="game_start" onclick="window.open('https://azriel.im/pong_wasm', '_blank', 'innerWidth=800,innerHeight=601');">Play</button></p></div>
 </form>
 </div>
 </p>
