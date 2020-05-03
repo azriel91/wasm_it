@@ -51,6 +51,43 @@ module_levels:
 
 WASM applications don't have access to those forms of input, but can use others:
 
+<style>
+input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+input[type="text"]:focus {
+    box-shadow: 0px 0px 2px 1px #aaccff;
+}
+
+button {
+    background: #f0f0f0;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #ccc;
+    padding-left: 24px;
+    padding-top: 4px;
+    padding-right: 24px;
+    padding-bottom: 4px;
+}
+
+button:hover {
+    background: #f8f8f8;
+}
+
+button:hover:active {
+    background: #eeeeee;
+    box-shadow: 0px 0px 2px 1px #aaccff;
+}
+</style>
+
 <p>
 <details open>
 <summary><b>Query Parameters:</b></summary>
