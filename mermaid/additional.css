@@ -1,0 +1,20 @@
+.mermaid text.actor {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Ubuntu mono", consolas, monospace;
+}
+
+/* https://github.com/mermaid-js/mermaid/issues/523 */
+.actor {
+    /*
+     * These are also set in `mermaid.min.js`, as setting them here only changes
+     * how it is drawn, not the layout.
+     */
+    width: 100px;
+    height: 35px;
+}
+
+.messageText {
+    font-size: 15px;
+    font-family: "Ubuntu mono", consolas, monospace;
+}
