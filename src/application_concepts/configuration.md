@@ -115,7 +115,7 @@ http://localhost:8000/?session_server_address=127.0.0.1
 <form method="post">
 <p><label for="session_server_address" name="session_server_address" style="display: inline-block; width: 125px;">Server Address:</label> <input type="text" name="session_server_address" value = "127.0.0.1" /></p>
 <p><label for="session_server_port" name="session_server_port" style="display: inline-block; width: 125px;">Server Port:</label> <input type="text" name="session_server_port" value = "1234" /></p>
-<div style="text-align: center;"><p><button type="submit" name="game_start" onclick="window.open('http://localhost:8000/', '_blank', 'innerWidth=800,innerHeight=601');">Play</button></p></div>
+<div style="text-align: center;"><p><button type="submit" name="game_start" onclick="window.open('https://azriel.im/pong_wasm', '_blank', 'innerWidth=800,innerHeight=601');">Play</button></p></div>
 </form>
 </div>
 </p>
