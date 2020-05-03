@@ -1,0 +1,43 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install `mdbook`
+        uses: peaceiris/actions-mdbook@v1
+        with:
+          mdbook-version: latest
+
+      - name: Install GraphViz
+        uses: kamiazya/setup-graphviz@v1
+
+      - name: Install `mdbook-graphviz`
+        uses: actions-rs/install@v0.1
+        with:
+          crate: mdbook-graphviz
+          version: latest
+          use-tool-cache: true
+
+      - name: Install `mdbook-mermaid`
+        uses: actions-rs/install@v0.1
+        with:
+          crate: mdbook-mermaid
+          version: latest
+          use-tool-cache: true
+
+      - run: mdbook build
+      - run: mdbook test
+
+      - name: Publish to `gh-pages`
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./book
