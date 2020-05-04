@@ -22,6 +22,15 @@ Takeaways:
 1. Check for messages received by the network socket.
 2. Iterate and decide what to do with them.
 
+<details open>
+<summary>Example</summary>
+<span style="display: block; margin-left: 20px;">
+
+![Native Network Receive logic](./networking_native_recv.png)
+
+</span>
+</details>
+
 ## WASM
 
 **Note:** If you retain the TCP / UDP code, the WASM application doesn't crash, but simply logs that this part is not implemented.
@@ -61,6 +70,15 @@ Takeaways:
 3. Also, set up an `onload` callback for when the `FileReader` has finished reading bytes.
 4. In the `onload` callback, send the message through to Rust using a `channel`.
 5. In Rust, read from the channel for any messages.
+
+<details open>
+<summary>Example</summary>
+<span style="display: block; margin-left: 20px;">
+
+![Native WASM Receive logic](./networking_wasm_recv.png)
+
+</span>
+</details>
 
 [`SharedArrayBuffer`]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer
 [`WebSocket`]: https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API

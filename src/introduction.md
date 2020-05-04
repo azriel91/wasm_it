@@ -6,7 +6,7 @@ This talk covers the conceptual differences between native and WASM application 
 
 It does *not* provide exact detail on the code changes that were made. That detail will be provided in a `wasm_rush_report` book that will be released within the next week.
 
-This is also *not* a talk on how WASM works or how to write WASM, but Utah Rust published their [WASM introduction videos] which cover this.
+This is also *not* a talk on how WASM works or how to write WASM; Utah Rust published their [WASM introduction videos] which cover this.
 
 <hr style="width: 95%; border: 1px solid #ccc;" />
 

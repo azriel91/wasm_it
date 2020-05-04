@@ -54,8 +54,10 @@ $ wasm-pack build -- --features "wasm gl"
 </details>
 
 <details>
-<summary>Forget what you know about programming for a moment</summary>
+<summary>Forget what you know about programming for a moment.</summary>
 <span style="display: block; margin-left: 20px; font-size: 1.5em;">
+
+<a href="canvas_wrong_coordinates.png" target="_blank"><img src="canvas_wrong_coordinates.png" width="400" height="300" /></a>
 
 In the following sequence `canvas.width()` is a getter. Where is `canvas.set_attribute("width", 640)` called?
 
@@ -87,18 +89,43 @@ B. See [amethyst#2247 (comment)]
 </details>
 
 <details>
-<summary>There will be a project report written in the next week</summary>
+<summary>If you want help, create an environment where it is easy to help.</summary>
+<span style="display: block; margin-left: 20px;">
+
+Effort in the first week was solely to make it easy for people to see what issues are ready to be work on.
+
+* The difficulty of nearly every issue was pretty high, but every week new issues were created.
+* Really fortunate that [`@chemicstry`] wasn't phased by the level of difficulty, and got us through the multithreading issue.
+* Within a day after posting two good [starter] [issues], they were fixed by someone new.
+
+</span>
+</details>
+
+<details>
+<summary>If you have the option to begin from scratch, choose that.</summary>
+<span style="display: block; margin-left: 20px;">
+
+Retrofitting browser WASM support &ndash; asynchronous event handling model &ndash; to an existing application that is designed for synchronous execution is somewhat messy.
+
+</span>
+</details>
+
+<details>
+<summary>There will be a project report written in the next week.</summary>
 <span style="display: block; margin-left: 20px;">
 
 This will cover:
 
 * How the project was managed.
-* Project implementation timeline.
+* Project implementation time line.
 * Links to forks, issues, and PRs that made it back to upstream repositories.
 * Future work.
 
 </span>
 </details>
 
-[Pong]: https://github.com/amethyst/pong_wasm
+[`@chemicstry`]: https://github.com/chemicstry
 [amethyst#2247 (comment)]: https://github.com/amethyst/amethyst/issues/2247#issuecomment-616800595
+[issues]: https://github.com/amethyst/amethyst/issues/2216
+[Pong]: https://github.com/amethyst/pong_wasm
+[starter]: https://github.com/amethyst/amethyst/issues/2215

@@ -7,6 +7,7 @@ Takeaways:
 * The application provides the `event_handler`.
 * **Native:** The application controls the event loop &ndash; `winit`.
 * **WASM:** The browser controls the event loop, but consistent API is still exposed by `winit`.
+* Github issue(s): [amethyst#2191]
 
 <details>
 <summary>Event loop example</summary>
@@ -109,4 +110,5 @@ event_loop.run(event_handler);
 ```
 
 [`Window::requestAnimationFrame`]: https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
+[amethyst#2191]: https://github.com/amethyst/amethyst/issues/2191
 [panics]: https://github.com/rust-windowing/winit/blob/v0.22.0/src/platform_impl/web/event_loop/mod.rs#L38-L59
