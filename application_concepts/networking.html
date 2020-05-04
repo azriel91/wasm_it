@@ -173,6 +173,12 @@
 <li>Check for messages received by the network socket.</li>
 <li>Iterate and decide what to do with them.</li>
 </ol>
+<details open>
+<summary>Example</summary>
+<span style="display: block; margin-left: 20px;">
+<p><img src="./networking_native_recv.png" alt="Native Network Receive logic" /></p>
+</span>
+</details>
 <h2><a class="header" href="#wasm" id="wasm">WASM</a></h2>
 <p><strong>Note:</strong> If you retain the TCP / UDP code, the WASM application doesn't crash, but simply logs that this part is not implemented.</p>
 <h3><a class="header" href="#sending-messages-1" id="sending-messages-1">Sending Messages</a></h3>
@@ -215,6 +221,12 @@ extern &quot;C&quot; {
 <li>In the <code>onload</code> callback, send the message through to Rust using a <code>channel</code>.</li>
 <li>In Rust, read from the channel for any messages.</li>
 </ol>
+<details open>
+<summary>Example</summary>
+<span style="display: block; margin-left: 20px;">
+<p><img src="./networking_wasm_recv.png" alt="Native WASM Receive logic" /></p>
+</span>
+</details>
 
                     </main>
 
