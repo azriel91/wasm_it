@@ -57,6 +57,8 @@ $ wasm-pack build -- --features "wasm gl"
 <summary>Forget what you know about programming for a moment</summary>
 <span style="display: block; margin-left: 20px; font-size: 1.5em;">
 
+<a href="canvas_wrong_coordinates.png" target="_blank"><img src="canvas_wrong_coordinates.png" width="400" height="300" /></a>
+
 In the following sequence `canvas.width()` is a getter. Where is `canvas.set_attribute("width", 640)` called?
 
 1. A
