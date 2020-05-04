@@ -1,4 +1,4 @@
-# Subject Areas
+# Application Concepts
 
 > **Amethyst:** Data-driven game engine written in Rust
 >
