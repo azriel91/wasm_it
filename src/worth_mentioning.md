@@ -111,10 +111,12 @@ Retrofitting browser WASM support &ndash; asynchronous event handling model &nda
 </details>
 
 <details>
-<summary>There will be a project report written in the next week.</summary>
+<summary>There is also a development focused project report.</summary>
 <span style="display: block; margin-left: 20px;">
 
-This will cover:
+Online at <https://amethyst.github.io/wasm_rush_report/>.
+
+This covers:
 
 * How the project was managed.
 * Project implementation time line.
