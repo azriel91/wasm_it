@@ -12,6 +12,7 @@ This is also *not* a talk on how WASM works or how to write WASM; Utah Rust publ
 
 Written for the Rust Auckland meetup 2020-05-04.
 
+* Online recording: <https://youtu.be/7YQGwb4_AvA>
 * Rust Auckland meetup: <https://www.meetup.com/rust-akl/>
 * Slack: <https://rust-akl.slack.com/messages/CCC7KUXMY/>
 * Repository: <https://github.com/azriel91/wasm_it>

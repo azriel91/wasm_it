@@ -1,5 +1,6 @@
 # Links
 
+* [Online recording](https://youtu.be/7YQGwb4_AvA)
 * [`wasm_it` repository](https://github.com/azriel91/wasm_it)
 * [`amethyst` repository](https://github.com/amethyst/amethyst)
 * [`pong_wasm` repository](https://github.com/amethyst/pong_wasm)

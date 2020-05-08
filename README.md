@@ -2,8 +2,8 @@
 
 Presentation material about adding WASM support to the Amethyst game engine.
 
-* Online book: https://azriel.im/wasm_it/
-* Recording: TBD
+* Online book: <https://azriel.im/wasm_it/>
+* Recording: <https://youtu.be/7YQGwb4_AvA>
 
 ## Building Locally
 
